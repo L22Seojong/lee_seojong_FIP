@@ -5,9 +5,17 @@
 
 .box-color {
 	color: #fff;
-	background: #000;
 	text-align: center;
-	margin: 0;
+	margin: -20px;
+	margin-top: 0.5px;
+}
+
+.box-color2 {
+	background-color: #252525;
+	text-align: center;
+	color: #fff;
+	padding: 15px;
+	font-size: 22px;
 }
 
 /*basic reset*/
@@ -32,10 +40,66 @@ body {
 	font-size: 12px;
 }
 
+h1 { 
+	text-align: center;
+	padding-top: 80px;
+	font-size: 30px;
+}
+
+.text-color {
+	color: #252525;
+	font-size: 30px;
+}
+
+.contact-info {
+	font-size: 20px;
+	color: #252525;
+	text-align: left;
+	margin: 20px;
+}
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+  }
+  
+  input[type=submit] {
+	background-color: #DB0000;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-right: 200px;
+	margin-left: -100px;
+  }
+  
+  input[type=submit]:hover {
+	background-color: #DB0000;
+  }
+  
+  .container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+  }
+
 /* Remove underlines from links */
 
 a {
 	text-decoration: none;
+}
+
+.social {
+	width: 60px;
+	height: 60px;
+	margin: 5px;
 }
 
 /*hide elements from browser but show for doc outline*/
@@ -67,9 +131,10 @@ you work on and the intended audience, we may go as low as 320px */
 }
 
 #header-con {
-	background-color: #ddd;
+	background-color: #252525;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	color: #fff;
 }
 
 #header-logo {
@@ -103,10 +168,11 @@ you work on and the intended audience, we may go as low as 320px */
 }
 
 #image-slider-con {
-	background-color: #dddddd;
+	background-color: #E33B3B;
 	/* Remove as content will dictate height */
 	height: 640px;
 	position: relative;
+	color: white;
 }
 
 #image-slider-con h2 {
@@ -181,7 +247,12 @@ you work on and the intended audience, we may go as low as 320px */
 
 #footer-con {
 	height: 410px;
-	background-color: #aaa;
+	background-color: #ddd;
+}
+
+#footer-con2 {
+	height: 410px;
+	background-color: #252525;
 }
 
 #footer-box {
@@ -189,17 +260,30 @@ you work on and the intended audience, we may go as low as 320px */
 	/* Remove as content will dictate height */
 	height:45px;
 	grid-column: 1/3;
-	background-color: #ddd;
 }
 
 #footer-newsletter {
-	margin-top: 100px;
+	margin-top: 80px;
 	/* Remove as content will dictate height */
-	height:100px;
+	height:50px;
 	grid-column: 1/-1;
-	background-color: #ddd;
+	background-color: #6A6A6A;
+	text-align: center;
+	border: #fff solid 3px;
+	padding-top: 20px;
+	padding-bottom: -30px;
+	color: #fff;
+	font-size: 15px;
 }
 
+#footer-backtotop {
+	margin-top: 50px;
+	text-align: center;
+	border: #fff solid 2px;
+	color: #fff;
+	padding: 10px;
+	width: 70px;
+}
 /* gallery page */
 
 #hero-gallery-con {
@@ -240,15 +324,18 @@ you work on and the intended audience, we may go as low as 320px */
 
 .gallery-box {
 	grid-column: 1/-1;
-	background-color: #ddd;
+	background-color: #e33b3b;
 	/* Remove as content will dictate height */
 	height: 507px;
 	margin-bottom: 20px;
 }
 
-#footer-newsletter2 {
-	margin-top: 20px;
-	height:40px;
-	grid-column: 1/3;
-	background-color: #ddd;
-}
+.row {
+	display: flex;
+  }
+
+  /* Create three equal columns that sits next to each other */
+.column {
+	flex: 33.33%;
+	padding: 5px;
+  }
