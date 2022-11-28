@@ -4,11 +4,86 @@
 /*Remove this rule on your HTML elements as you start to fill them with content*/
 
 .box-color {
-	color: #fff;
-	background: #000;
+	color: rgb(0, 0, 0);
 	text-align: center;
 	margin: 0;
+	padding-top: 10px;
+	margin-top: 10px;
+	margin-right: 85px;
+	font-size: 30px;
 }
+
+.logo {
+	color: rgb(255, 255, 255);
+	text-align: center;
+	margin: 0;
+	padding-top: 10px;
+	margin-top: 5px;
+	margin-right: 85px;
+	font-size: 20px;
+}
+
+#main-nav {
+	grid-column: 4/11;
+	margin: 0;
+	margin-top: 10px;
+	height: 90px;
+ }
+
+ #main-nav ul {
+	margin-top: 5px;
+	margin-left:-120px;
+	padding: 0;
+ }
+ 
+ #main-nav li {
+	display: inline;
+	margin-right: 28px;
+ }
+ 
+ #main-nav li:last-child {
+	margin-right: 0;
+ }
+ 
+ #main-nav li a {
+	color:#ffffff;
+	font-size: 30px;
+	margin-left: 20px;
+ }
+ 
+ #main-nav li a:hover {
+	padding-bottom: 8px;
+	border-bottom: 3px solid #f80e0e;
+ }
+ 
+ /* look for an element that already has the class "active" attached to it*/
+ #main-nav li a.active {
+	padding-bottom: 8px;
+	border-bottom: 3px solid #f80e0e;
+ }
+ 
+ #Log-in-top {
+	grid-column: 11/-1;
+	margin-right: -15px;
+	margin-bottom: -1px;
+ }
+ 
+ .Log-in {
+	background-color: #eaeaea;
+	color: rgb(0, 0, 0);
+	font-size: 20px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	height: 90%;
+	margin-bottom: 60px;
+	border-radius: 15px;
+ }
+ 
+ 
+ #Log-in-top:hover {
+	background-color: #da0202;
+ }
 
 /*basic reset*/
 
@@ -67,7 +142,7 @@ you work on and the intended audience */
 }
 
 #header-con {
-	background-color: #ddd;
+	background-color: #252525;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
@@ -108,6 +183,10 @@ you work on and the intended audience */
 	height: 582px;
 }
 
+.recommendations {
+	font-size: 40px;
+}
+
 #products {
 	margin-top: 100px;
 	margin-bottom: 100px;
@@ -122,6 +201,7 @@ you work on and the intended audience */
 	grid-column: 1/5;
 	/* Remove as content will dictate height */
 	height: 507px;
+	
 }
 
 #product2 {
@@ -137,23 +217,43 @@ you work on and the intended audience */
 }
 
 .product-box {
-	background-color: #ddd;
+	background-color: #ff3131;
+}
+
+.products-text {
+	color: #fff;
+	font-size: 50px;
+	margin-left: 100px;
+	margin-top: 90px;
+}
+
+.products-text2 {
+	color: #fff;
+	font-size: 50px;
+	margin-left: 160px;
+	margin-top: 90px;
 }
 
 #about-con {
-	background-color: #ddd;
+	background-color: #252525;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
 #about-title {
 	text-align: center;
+	font-size: 45px;
 }
 
 #about-text {
 	grid-column: 1/8;
 	/* Remove as content will dictate height */
 	height: 700px;
+	text-align:left ;
+	color: #fff;
+	margin-top: 30px;
+	margin-bottom: -60px;
+	padding-top: 60px;
 }
 
 #about-image {
@@ -171,6 +271,8 @@ you work on and the intended audience */
 	grid-column: 1/8;
 	/* Remove as content will dictate height */
 	height: 700px;
+	text-align: left;
+	font-size: 40px;
 }
 
 #contact-form {
@@ -182,7 +284,7 @@ you work on and the intended audience */
 /*Common page elements  */
 
 #footer-con {
-	background-color: #aaaaaa;
+	background-color: #252525;
 	padding-top: 50px;
 	padding-bottom: 20px;
 }
@@ -193,6 +295,19 @@ you work on and the intended audience */
 	height: 80px;
 }
 
+.row {
+	display: flex;
+	width: 60px;
+	height: 60px;
+	margin-bottom:-25px ;
+  }
+
+  /* Create three equal columns that sits next to each other */
+.column {
+	flex: 33.33%;
+	padding: 25px;
+  }
+
 #footer-nav {
 	grid-column: 3/-1;
 	/* Remove as content will dictate height */
@@ -200,23 +315,94 @@ you work on and the intended audience */
 	margin-bottom: 100px;
 }
 
+.bottom{
+	color: #fff;
+	margin: 20px;
+	font-size: 30px;
+	margin-left: 1000px;
+}
+
 #footer-newsletter1 {
-	grid-column: 1/5;
+	width: 400px;
 	/* Remove as content will dictate height */
 	height: 80px;
+	background: #E33B3B;
+	color: #fff;
+	padding-top: 30px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	margin-left: 150px;
 }
+
+#footer-newsletter1:hover {
+	background-color: #9a0c0c;
+ }
 
 #footer-newsletter2 {
-	grid-column: 5/7;
+	width: 300px;
 	/* Remove as content will dictate height */
 	height: 80px;
+	border: 3px solid #fff;
+	color: #fff;
+	padding-top: 20px;
+	margin-left: 600px;
+	margin-top: -135px;
 }
 
+#footer-newsletter2:hover {
+	background-color: #E33B3B;
+ }
+
 #footer-social {
-	grid-column: 11/-1;
+	width: 400px;
 	/* Remove as content will dictate height */
 	height: 80px;
+	border: 3px solid #fff;
+	color: #fff;
+	padding-top: 30px;
+	margin-left: 1950px;
+	margin-top: -120px;
 }
+
+#footer-social:hover {
+	background-color: #E33B3B;
+ }
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 30px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+  }
+  
+  input[type=submit] {
+	background-color: #DB0000;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-right: 225px;
+	margin-left: -300px;
+	font-size: 20px;
+  }
+  
+  input[type=submit]:hover {
+	background-color: #DB0000;
+  }
+  
+  .container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 40px;
+	padding-top: 50px;
+	margin: -60px;
+	height: 85%;
+  }
 
 
 
@@ -263,3 +449,4 @@ you work on and the intended audience */
 	height: 507px;
 	margin-bottom: 20px;
 }
+
