@@ -26,7 +26,7 @@
 #main-nav {
 	grid-column: 4/11;
 	margin: 0;
-	margin-top: 10px;
+	margin-top: 60px;
 	height: 90px;
  }
 
@@ -61,6 +61,29 @@
 	padding-bottom: 8px;
 	border-bottom: 3px solid #f80e0e;
  }
+
+ #main-nav {
+	grid-column: 4/11;
+	margin: 0;
+	margin-top: 10px;
+	height: 90px;
+ }
+
+ #main-nav ul {
+	margin-top: 5px;
+	margin-left:-120px;
+	padding: 0;
+ }
+ 
+ #main-nav li {
+	display: inline;
+	margin-right: 28px;
+ }
+ 
+ #main-nav li:last-child {
+	margin-right: 0;
+ }
+ 
  
  #Log-in-top {
 	grid-column: 11/-1;
@@ -409,20 +432,24 @@ input[type=text], select, textarea {
 /* gallery page */
 
 #gallery-hero-con {
-	background-color: #aaaaaa;
-	background: url("https://via.placeholder.com/1920x580");
 	height: 580px;
 }
 
 #gallery-text {
-	grid-column: 1/9;
+	width: 350%;
+	grid-column: 1/4;
 	/* Remove as content will dictate height */
-	height: 200px;
-	margin-top: 100px;
+	height: 300px;
+	margin-top: -550px;
+	color: #ffffff;
+	font-size: 30px;
+	text-align: left;
+	background-color: #00000085;
 }
 
+
 #gallery-controls {
-	margin-top: 200px;
+	margin-top: -100px;
 	grid-column: 6/8;
 	display: flex;
 	justify-content: center;
@@ -443,10 +470,41 @@ input[type=text], select, textarea {
   }
 
 .gallery-box {
-	background-color: #ddd;
+	background-color: #FC2525;
 	grid-column: span 4 / span 4;
 	/* Remove as content will dictate height */
 	height: 507px;
 	margin-bottom: 20px;
 }
+
+.gallery-box p {
+	color: #f2f2f2;
+	font-size: 50px;
+	padding: 90px;
+	text-align: center;
+}
+
+.bottomnav {
+	text-align: right;
+	width: 85%;
+	padding-top: 2px;
+	font-size: 30px;
+}
+
+#footer-social2 {
+	width: 300px;
+	/* Remove as content will dictate height */
+	height: 90px;
+	border: 3px solid #fff;
+	color: #fff;
+	margin-left: 1250px;
+	margin-top: -100px;
+	padding-top: 20px;
+}
+
+
+
+
+
+
 
