@@ -8,12 +8,11 @@
 <!-- students must convert divs to semantic tags -->
 <body>
 	<div id="container">
-        
         <div id="header-con">
             <div id="main-header" class="grid-con">
                 <div id="header-box1" class="logo">
-                    <img src="images/logo.png" alt="logo" width="60" height="60">
-                    <p>Korean Restraunt</p>
+                    <img src="images/logo.png" alt="logo" width="70" height="70">
+                    <p class="name">Korean Restraunt</p>
                 </div>
                 <div id="main-nav" class="box-color">
                     <nav id="main-nav">
@@ -21,7 +20,7 @@
                         <ul>
                             <li><a class="active" href="index.html">About Us</a></li>
                             <li><a href="#">Food & Beverages</a></li>
-                            <li><a href="#">Gallery</a></li>
+                            <li><a class="active" href="gallery.html">Gallery</a></li>
                             <li><a href="#">Contact Us</a></li>
                         </ul> 
                     </nav>
@@ -35,8 +34,8 @@
         <main>
             <div class="grid-con" id="hero">
                 <div id="hero-text" class="box-color">
-                    <h1>Naengmyeon</h1>
-                    <p>
+                    <h1 class="hero_title">Naengmyeon</h1>
+                    <p class="description">
                         Naengmyeon is a noodle dish of North Korean origin which consists of long and thin handmade noodles made from the 
                         flour and starch of various ingredients, including buckwheat, potatoes, sweet potatoes, arrowroot starch, and kudzu. Buckwheat predominates.
                     </p>
@@ -46,28 +45,36 @@
 
             <div class="grid-con" id="products">
                 <h2 class="recommendations">Recommendations For Today</h2>
+                <img src="images/round image/Taegeuk.svg.png" class="taegeuk" alt="taegeuk" width="90px" height="90px">
+                <img src="images/round image/Taegeuk.svg.png" class="taegeuk2" alt="taegeuk" width="90px" height="90px">
                 <div class="product-box" id="product1">
                     <img src="images/rectangle pictures/noodle2.jpg" alt="image">
+                    <p class="food">Korean Hot Noodles</p>
                     <p class="products-text">Janchi-guksu</p>
+                    <img src="images/stars.png" class="grade" alt="grade">
                 </div>
                 <div class="product-box" id="product2">
                     <img src="images/rectangle pictures/ dumpling soup.jpg" alt="image">
+                    <p class="food">Korean Hot Noodles</p>
                     <p class="products-text"> Dumpling soup</p>
+                    <img src="images/stars.png" class="grade" alt="grade">
                 </div>
                 <div class="product-box" id="product3">
                     <img src="images/rectangle pictures/bone meet.jpg" alt="image">
-                    <p class="products-text2">LA_Kalbi</p>
+                    <p class="food">Korean Hot Noodles</p>
+                    <p class="products-text2">LA_Galbi</p>
+                    <img src="images/stars.png" class="grade" alt="grade">
                 </div>
             </div>
 
             <h2 id="about-title">“What is Korean cuisine?”</h2>
-            <div id="about-con">
-                <div class="grid-con" id="about">
-                    <div id="about-text" class="box-color">
-                        <h4>Korean food came from very old traditions in Korea. 
+                <div id="about-con">
+                    <div class="grid-con" id="about">
+                        <div id="about-text" class="box-color">
+                            <h4>Korean food came from very old traditions in Korea. 
                             It has developed through many environmental, political, and cultural changes. 
-                            There are special rules for eating meals in Korea.</h4>
-
+                            There are special rules for eating meals in Korea.
+                        </h4>
                         <p>Korean cuisine is largely based on rice, vegetables, seafood and meats. 
                             Dairy is largely absent from the traditional Korean diet. 
                             Traditional Korean meals are named for the number of side dishes that accompany steam-cooked short-grain rice.
@@ -84,10 +91,11 @@
                     <p>Questions, suggestions, complaints? Let us know by sending an email to us at the address below. Though we can’t answer every e-mail, you can be sure that we read them all and do our best to respond.
                         
                         For help with your subscription, email leetom9124@gmail.com
-                        
-                        Address:
+                    </p>    
+                    <p class="Address">Address:
                         130 Dundas St, London, ON N6A 1G2
                     </p>
+                    
                 </div>
                 <div id="contact-form" class="box-color">
                     <div class="container">
@@ -120,30 +128,28 @@
                         <img src="images/social media/Youtube.png" class="social" alt="social meida logo" width="100" height="100">
                     </div>
                 </div>
-                </div>
-                <div id="main-nav" class="box-color">
-                    <nav id="main-nav">
-                        <h2 class="hidden">Main Navigation</h2>
-                        <ul>
-                            <li><a class="active" href="index.html">About Us</a></li>
-                            <li><a href="#">Food & Beverages</a></li>
-                            <li><a href="#">Gallery</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                        </ul> 
-                    </nav>
-                </div>
-                <div id="footer-newsletter1" class="box-color">
-                    <p>Newsletter</p>
-                </div>
-                <div id="footer-newsletter2" class="box-color">
-                    <p>Back To Top</p>
-                </div>
-                <div id="footer-social" class="box-color">
-                    <p>Cookie Settings</p>
-                </div>
+        </div>
+        <div id="main-nav" class="box-color">
+            <nav id="main-nav">
+                <h2 class="hidden">Main Navigation</h2>
+                    <ul>
+                        <li><a class="active" href="index.html">About Us</a></li>
+                        <li><a href="#">Food & Beverages</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul> 
+            </nav>
+        </div>
+            <div id="footer-newsletter1" class="box-color">
+                <p>Newsletter</p>
+            </div>
+            <div id="footer-newsletter2" class="box-color">
+                <p>Back To Top</p>
+            </div>
+            <div id="footer-social" class="box-color">
+                <p>Cookie Settings</p>
             </div>
         </div>
-
     </div> 
 </body>
 </html>

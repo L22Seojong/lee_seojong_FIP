@@ -19,8 +19,53 @@
 	margin: 0;
 	padding-top: 10px;
 	margin-top: 5px;
-	margin-right: 85px;
+	margin-right: 95px;
 	font-size: 20px;
+}
+
+.name {
+	margin-left: 140px;
+	margin-top: -69px;
+	font-size: 30px;
+}
+
+.hero_title {
+	text-align: left;
+	font-size: 60px;
+	color: #da0202;
+}
+
+.description {
+	text-align: left;
+	font-size: 40px;
+	line-height: 1.5;
+}
+
+.food {
+	color: #f2f2f2;
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: -55px;
+	margin-top: 20px;
+}
+
+.grade {
+	margin-top: 30px;
+	margin-left: 150px;
+	width: 250px;
+}
+
+.taegeuk {
+	margin-top: -100px;
+	margin-bottom: 30px;
+	margin-left: 400px;
+}
+
+
+.taegeuk2 {
+	margin-top: -100px;
+	margin-bottom: 30px;
+	margin-left: 1005px;
 }
 
 #main-nav {
@@ -126,7 +171,7 @@ img {
 /*html selectors*/
 
 body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Cambria, Cochin", Georgia, Times, 'Times New Roman', serif;
 	font-size: 12px;
 }
 
@@ -246,7 +291,7 @@ you work on and the intended audience */
 .products-text {
 	color: #fff;
 	font-size: 50px;
-	margin-left: 100px;
+	margin-left: 110px;
 	margin-top: 90px;
 }
 
@@ -277,6 +322,8 @@ you work on and the intended audience */
 	margin-top: 30px;
 	margin-bottom: -60px;
 	padding-top: 60px;
+	line-height: 1.5;
+
 }
 
 #about-image {
@@ -293,9 +340,22 @@ you work on and the intended audience */
 #contact-text {
 	grid-column: 1/8;
 	/* Remove as content will dictate height */
+	margin-top: -50px;
+	margin-left: -70px;
 	height: 700px;
 	text-align: left;
 	font-size: 40px;
+	line-height: 1.5;
+}
+
+.Address {
+	grid-column: 1/8;
+	/* Remove as content will dictate height */
+	height: 700px;
+	text-align: left;
+	font-size: 40px;
+	line-height: 1.5;
+	margin-top: 20px;
 }
 
 #contact-form {
