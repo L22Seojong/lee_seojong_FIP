@@ -8,7 +8,6 @@
 	text-align: center;
 	margin: -20px;
 	margin-top: 0.5px;
-	background: #ff9494;
 }
 
 .box-color2 {
@@ -17,6 +16,34 @@
 	color: #fff;
 	padding: 15px;
 	font-size: 22px;
+}
+
+.name {
+	margin-left: -25px;
+	font-size: 25px;
+	color: white;
+	margin-top: -80px;
+}
+
+.products-text {
+	color: #fff;
+	font-size: 50px;
+	margin-left: 75px;
+	margin-top: 70px;
+}
+
+.food {
+	color: #f2f2f2;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: -55px;
+	margin-top: 30px;
+}
+
+.grade {
+	margin-top: 15px;
+	margin-left: 90px;
+	width: 250px;
 }
 
 /*basic reset*/
@@ -37,7 +64,7 @@ img {
 /*html selectors*/
 
 body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Cambria, Cochin", Georgia, Times, 'Times New Roman', serif;
 	font-size: 12px;
 }
 
@@ -156,8 +183,6 @@ you work on and the intended audience, we may go as low as 320px */
 /* index page */
 
 #hero-con {
-	background-color: #aaaaaa;
-	background: url("https://via.placeholder.com/428x458");
 	height: 458px;
 }
 
@@ -209,7 +234,14 @@ you work on and the intended audience, we may go as low as 320px */
 }
 
 #about-us-text-con {
-	background-color: #dddddd;
+	/* Remove as content will dictate height */
+	height: 700px;
+	padding-top: -20px;
+	text-align:left ;
+	color: #fff;
+	line-height: 1.5;
+	font-size: 20px;
+	background-color: #252525;
 }
 
 #about-us-text {
@@ -268,7 +300,7 @@ you work on and the intended audience, we may go as low as 320px */
 	/* Remove as content will dictate height */
 	height:50px;
 	grid-column: 1/-1;
-	background-color: #6A6A6A;
+	background-color: #E33B3B;
 	text-align: center;
 	border: #fff solid 3px;
 	padding-top: 20px;
@@ -294,10 +326,17 @@ you work on and the intended audience, we may go as low as 320px */
 }
 
 #hero-gallery-text {
-	grid-column: 1/-1;
+	width: 100%;
+	grid-column: 1/4;
 	/* Remove as content will dictate height */
-	height: 350px;
-	margin-top: 20px;
+	height: 300px;
+	margin-top: -425px;
+	margin-left: 30px;
+	color: #ffffff;
+	font-size: 17px;
+	text-align: left;
+	background-color: #00000085;
+	padding: 20px;
 }
 
 #gallery-controls {
@@ -314,6 +353,7 @@ you work on and the intended audience, we may go as low as 320px */
 	width: 30px;
 	border-radius: 50%;
 	margin: 5px;
+	margin-top: -100px;
   }
 
 #gallery h2 {
@@ -329,6 +369,42 @@ you work on and the intended audience, we may go as low as 320px */
 	/* Remove as content will dictate height */
 	height: 507px;
 	margin-bottom: 20px;
+}
+
+.gallery-box p {
+	color: #f2f2f2;
+	font-size: 50px;
+	padding: 90px;
+	text-align: center;
+}
+
+.gallery_intro {
+	color: #ffffff;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: -55px;
+	margin-top: 25px;
+}
+
+.gallery_grade {
+	color: #ffffff;
+	text-align: center;
+	font-size: 20px;
+	margin-top: -40px;
+}
+
+.Donggeurang {
+	color: #f2f2f2;
+	padding: 90px;
+	text-align: center;
+	margin-left: -10px;
+	margin-bottom: -80px;
+	font-size: 10px;
+}
+
+.imso {
+	margin-bottom: -80px;
+	font-size: 10px;
 }
 
 .row {
