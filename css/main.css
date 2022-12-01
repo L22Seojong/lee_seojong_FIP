@@ -499,12 +499,13 @@ input[type=text], select, textarea {
 	width: 350%;
 	grid-column: 1/4;
 	/* Remove as content will dictate height */
-	height: 300px;
+	height: 400px;
 	margin-top: -550px;
 	color: #ffffff;
-	font-size: 30px;
+	font-size: 37px;
 	text-align: left;
 	background-color: #00000085;
+	padding: 20px;
 }
 
 
@@ -537,11 +538,34 @@ input[type=text], select, textarea {
 	margin-bottom: 20px;
 }
 
+.gallery_intro {
+	color: #ffffff;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: -55px;
+	margin-top: 25px;
+}
+
 .gallery-box p {
 	color: #f2f2f2;
 	font-size: 50px;
 	padding: 90px;
 	text-align: center;
+}
+
+.Donggeurang {
+	color: #f2f2f2;
+	font-size: 50px;
+	padding: 90px;
+	text-align: center;
+	margin-left: -30px;
+}
+
+.gallery_grade {
+	color: #ffffff;
+	text-align: center;
+	font-size: 20px;
+	margin-top: -40px;
 }
 
 .bottomnav {
@@ -554,7 +578,7 @@ input[type=text], select, textarea {
 #footer-social2 {
 	width: 300px;
 	/* Remove as content will dictate height */
-	height: 90px;
+	height: 70px;
 	border: 3px solid #fff;
 	color: #fff;
 	margin-left: 1250px;
